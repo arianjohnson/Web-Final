@@ -1,0 +1,105 @@
+body{
+   background-color:gold;
+}
+.welcome{
+    padding-top: 30%;
+}
+#start{
+    font-size: 5em;
+}
+#wireframe{
+    border: white solid 1px;
+}
+.welcome1{
+    padding-top: 10%;
+}
+.timerstyle{
+    font-size: 3em;
+    color:green;
+}
+
+#game_object {
+    /* background-color:black; */
+    /* text-align:center; */
+    height: 54em;
+    /* margin: 20px auto; */
+    position: relative;
+    /* width: 800px; */
+    margin-left: 16%;
+    margin-botttom: 2em;
+}
+#pieceElement{
+    background-color: transparent;
+    /* border:2px solid ; */
+    list-style-type: none;
+    /* display: inline-block; */
+    /* height: 62px; */
+    margin-top: 1em ;
+    /* position: absolute; */
+    /* left:30px; */
+    /* top:30px; */
+    /* width: 100%; */
+
+  
+
+}
+
+#pieceElement li{
+    display: inline-block;
+    list-style-type: none;
+   
+   }
+#pieceElement2{
+ background-color: transparent;
+     /* border:2px solid ; */
+    list-style-type: none;
+    /* display: inline-block; */
+    
+    /* height: 300px; */
+    /* margin: 20px auto; */
+    /* position: absolute; */
+    /* top:8px;
+    left:270px; */
+    /* width: 100%; */
+    
+
+}
+#pieceElement2 li{
+ display: inline-block;
+list-style-type: none;
+
+}
+
+#board  li {
+  
+   
+    list-style-type: none;
+    height: 150px;
+    line-height: 80px;
+    position: absolute;
+   
+    
+
+    /* css3 shadow */
+    -moz-box-shadow: inset 0 0 20px #555555;
+    -webkit-box-shadow: inset 0 0 20px #555555;
+    -ms-box-shadow: inset 0 0 20px #555555;
+    -o-box-shadow: inset 0 0 20px #555555;
+    box-shadow: inset 0 0 20px #555555; 
+
+    /*  */
+}
+#pieceElement li{
+        /* display: inline-block;
+        float: left;
+         list-style-type: none;
+         border:1px red;
+        */
+}
+#sourceImage{
+    /* margin-top:50px; */
+    display: inline;
+    /* float: left; */
+    width: 1px;
+    opacity: 0;
+}
